@@ -6,5 +6,8 @@
 - git remote add origin repo
 - git remote -v
 - git push origin master
-------------------------
 - git pull origin master
+# Anotation
+- @RestController
+- @GetMapping
+
