@@ -19,6 +19,6 @@ public class TodoController {
     }
     @GetMapping
     public List<Todo> getAll(){
-        return TodoService.getAll();
+        return todoService.getAll();
     }
 }
