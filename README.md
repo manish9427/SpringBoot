@@ -10,4 +10,8 @@
 # Anotation
 - @RestController
 - @GetMapping
+- @Service
+- @PostMapping
+- @RequestBody
+- @RequestMapping
 
