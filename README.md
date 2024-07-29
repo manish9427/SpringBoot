@@ -14,4 +14,6 @@
 - @PostMapping
 - @RequestBody
 - @RequestMapping
+# Beans 
+- @Component
 
