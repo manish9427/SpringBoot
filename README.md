@@ -16,4 +16,5 @@
 - @RequestMapping
 # Beans 
 - @Component
+- @Autowired
 
