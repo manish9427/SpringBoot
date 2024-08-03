@@ -9,12 +9,23 @@
 - git pull origin master
 # Anotation
 - @RestController
-- @GetMapping
 - @Service
-- @PostMapping
 - @RequestBody
 - @RequestMapping
+- @GetMapping
+- @PostMapping 
+- @DeleteMapping
+- @PutMapping
+- @PathVariable
 # Beans 
 - @Component
 - @Autowired
+# MongoDB
+- net start/stop MongoDB
+- show dbs
+- use name
+- show collections
+- db.students.inserOne({})
+- db.students.find()
+- db.students.find().pretty()
 
