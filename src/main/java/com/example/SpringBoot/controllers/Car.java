@@ -10,7 +10,7 @@ public class Car {
     private Dog dog;
 //    private Dog dog = new Dog();
 
-    @GetMapping("/ok")
+    @GetMapping("/car")
     public String ok(){
         return dog.fun();
     }

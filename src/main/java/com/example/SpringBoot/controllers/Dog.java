@@ -5,6 +5,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Dog {
     public String fun(){
-        return "Something";
+        return "Dog is inside the Car";
     }
 }
