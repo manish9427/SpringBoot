@@ -1,4 +1,4 @@
-package com.example.SpringBoot.services;
+package com.example.SpringBoot.service;
 
 import com.example.SpringBoot.models.Todo;
 import org.springframework.stereotype.Service;

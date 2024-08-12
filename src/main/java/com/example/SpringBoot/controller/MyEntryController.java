@@ -1,4 +1,4 @@
-package com.example.SpringBoot.controllers;
+package com.example.SpringBoot.controller;
 
 import com.example.SpringBoot.entity.MyEntry;
 import org.springframework.web.bind.annotation.*;
