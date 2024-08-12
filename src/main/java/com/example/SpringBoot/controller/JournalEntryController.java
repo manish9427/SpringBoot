@@ -1,6 +1,8 @@
 package com.example.SpringBoot.controller;
 
 import com.example.SpringBoot.entity.JournalEntry;
+import com.example.SpringBoot.service.JournalEntryService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -9,6 +11,9 @@ import java.util.List;
 @RequestMapping("/journal")
 public class JournalEntryController {
 
+    @Autowired
+    private JournalEntryService journalEntryService;
+
 
     @GetMapping
     public List<JournalEntry>getAll(){
@@ -16,7 +21,8 @@ public class JournalEntryController {
     }
 
     @PostMapping
-    public boolean createEntry(@RequestBody JournalEntry journalEntry){
+    public boolean createEntry(@RequestBody JournalEntry myEntry){
+        journalEntryService.saveEntry(myEntry);
         return true;
     }
 
