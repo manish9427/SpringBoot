@@ -3,7 +3,7 @@ package com.example.SpringBoot.controller;
 
 public class PersonName {
     public static void main (String args[]){
-        String name = "123";
+        String name = "1234";
         Person person = new Person(name);
         person.greet();
     }
