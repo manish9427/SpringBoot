@@ -1,4 +1,4 @@
-package com.example.SpringBoot.controller;
+package com.example.SpringBoot.javaBasic;
 
 public class Person {
     private String name;

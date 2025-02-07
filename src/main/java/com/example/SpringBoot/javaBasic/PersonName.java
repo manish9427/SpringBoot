@@ -1,5 +1,7 @@
-package com.example.SpringBoot.controller;
-//package com.example.SpringBoot.controller.Person;
+package com.example.SpringBoot.javaBasic;
+//package com.example.SpringBoot.javaBasic.Person;
+
+import com.example.SpringBoot.javaBasic.Person;
 
 import java.util.Scanner;
 
