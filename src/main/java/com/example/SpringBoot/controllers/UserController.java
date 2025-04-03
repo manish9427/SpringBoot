@@ -1,7 +1,7 @@
-package com.example.SpringBoot.controller;
+package com.example.SpringBoot.controllers;
 
-import com.example.SpringBoot.model.User;
-import com.example.SpringBoot.service.UserService;
+import com.example.SpringBoot.models.User;
+import com.example.SpringBoot.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

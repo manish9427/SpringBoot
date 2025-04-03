@@ -1,6 +1,6 @@
-package com.example.SpringBoot.service;
+package com.example.SpringBoot.services;
 
-import com.example.SpringBoot.model.My;
+import com.example.SpringBoot.models.My;
 
 import java.util.List;
 

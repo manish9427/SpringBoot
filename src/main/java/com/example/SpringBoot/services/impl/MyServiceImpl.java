@@ -1,7 +1,7 @@
-package com.example.SpringBoot.service.impl;
+package com.example.SpringBoot.services.impl;
 
-import com.example.SpringBoot.model.My;
-import com.example.SpringBoot.service.MyService;
+import com.example.SpringBoot.models.My;
+import com.example.SpringBoot.services.MyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
