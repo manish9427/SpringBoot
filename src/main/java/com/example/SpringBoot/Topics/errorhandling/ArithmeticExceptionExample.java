@@ -1,4 +1,4 @@
-package com.example.SpringBoot.errorhandling;
+package com.example.SpringBoot.Topics.errorhandling;
 
 public class ArithmeticExceptionExample {
     public static void main(String[] args) {

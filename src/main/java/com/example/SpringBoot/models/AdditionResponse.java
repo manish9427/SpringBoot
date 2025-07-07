@@ -1,4 +1,4 @@
-package com.example.SpringBoot.model;
+package com.example.SpringBoot.models;
 
 public class AdditionResponse {
     private double result;

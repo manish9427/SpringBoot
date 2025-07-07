@@ -1,4 +1,4 @@
-package com.example.SpringBoot.model;
+package com.example.SpringBoot.models;
 
 public class AdditionRequest {
     private Double num1;
